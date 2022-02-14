@@ -9,6 +9,7 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
 .contanier {
   background: #c2ccda;
   color: #1c1c1c;
@@ -94,11 +95,31 @@ a {
   border: 2px solid #f7f7f7;
 }
 
-/* Icones de habilidades */
+/* Ícones de habilidades */
 .iconHabilidade{
   width: 70px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 50px;
   padding: 1px;
+}
+
+/* Certificados */
+.certificados img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid;
+  margin: 5px;
+}
+.certificados :hover {
+  transform: scale(1.2);
+  border: 2px solid;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.projetos :hover{
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
